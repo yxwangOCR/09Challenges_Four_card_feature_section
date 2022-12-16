@@ -1,0 +1,12 @@
+{
+  "files": {
+    "main.css": "/09Challenges_Four_card_feature_section/static/css/main.31d6cfe0.css",
+    "main.js": "/09Challenges_Four_card_feature_section/static/js/main.e66f2c44.js",
+    "index.html": "/09Challenges_Four_card_feature_section/index.html",
+    "main.e66f2c44.js.map": "/09Challenges_Four_card_feature_section/static/js/main.e66f2c44.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.31d6cfe0.css",
+    "static/js/main.e66f2c44.js"
+  ]
+}
