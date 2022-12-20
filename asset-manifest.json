@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/09Challenges_Four_card_feature_section/static/css/main.31d6cfe0.css",
-    "main.js": "/09Challenges_Four_card_feature_section/static/js/main.e66f2c44.js",
+    "main.js": "/09Challenges_Four_card_feature_section/static/js/main.fa8adf0d.js",
     "index.html": "/09Challenges_Four_card_feature_section/index.html",
-    "main.e66f2c44.js.map": "/09Challenges_Four_card_feature_section/static/js/main.e66f2c44.js.map"
+    "main.fa8adf0d.js.map": "/09Challenges_Four_card_feature_section/static/js/main.fa8adf0d.js.map"
   },
   "entrypoints": [
     "static/css/main.31d6cfe0.css",
-    "static/js/main.e66f2c44.js"
+    "static/js/main.fa8adf0d.js"
   ]
 }
