@@ -4,7 +4,7 @@ import styled from "styled-components";
 const StyledHero = styled.section`
   padding: 2rem 1rem;
   width: 300px;
-  @media (min-width: 768px) {
+  @media (min-width: 992px) {
     width: 500px;
   } ;
 `;

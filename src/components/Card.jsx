@@ -13,7 +13,7 @@ const StyledCardContainer = styled.div`
   align-items: center;
   gap: 2rem;
 
-  @media (min-width: 768px){
+  @media (min-width: 992px){
     flex-direction: row;
   };
 `;

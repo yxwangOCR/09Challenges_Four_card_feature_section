@@ -10,6 +10,7 @@ const Application = styled.div`
   align-items: center;
   justify-content: center;
   background-color: white;
+  margin: 0 auto;
 `;
 
 function App() {
