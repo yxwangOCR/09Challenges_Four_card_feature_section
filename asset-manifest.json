@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/09Challenges_Four_card_feature_section/static/css/main.63c55aff.css",
-    "main.js": "/09Challenges_Four_card_feature_section/static/js/main.562f9e1d.js",
+    "main.js": "/09Challenges_Four_card_feature_section/static/js/main.45aa31ab.js",
     "static/media/icon-karma.svg": "/09Challenges_Four_card_feature_section/static/media/icon-karma.24e0debeb1e51eaa14e295270e33df54.svg",
     "static/media/icon-supervisor.svg": "/09Challenges_Four_card_feature_section/static/media/icon-supervisor.2dd10a2df2ddca34f77ca6a2065c6be2.svg",
     "static/media/icon-team-builder.svg": "/09Challenges_Four_card_feature_section/static/media/icon-team-builder.b885fb580a3cb78c9ad249750dd65a01.svg",
     "static/media/icon-calculator.svg": "/09Challenges_Four_card_feature_section/static/media/icon-calculator.21bc9adc97d084a64aedb386f1e35c0d.svg",
     "index.html": "/09Challenges_Four_card_feature_section/index.html",
     "main.63c55aff.css.map": "/09Challenges_Four_card_feature_section/static/css/main.63c55aff.css.map",
-    "main.562f9e1d.js.map": "/09Challenges_Four_card_feature_section/static/js/main.562f9e1d.js.map"
+    "main.45aa31ab.js.map": "/09Challenges_Four_card_feature_section/static/js/main.45aa31ab.js.map"
   },
   "entrypoints": [
     "static/css/main.63c55aff.css",
-    "static/js/main.562f9e1d.js"
+    "static/js/main.45aa31ab.js"
   ]
 }
