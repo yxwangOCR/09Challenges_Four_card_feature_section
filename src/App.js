@@ -16,11 +16,12 @@ const Application = styled.div`
 function App() {
   return (
     <Application>
-      <main>
+      <header>
         <Hero />
+      </header>
+      <main>
+        <Card />
       </main>
-
-      <Card />
     </Application>
   );
 }
