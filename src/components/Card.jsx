@@ -12,10 +12,11 @@ const StyledCardContainer = styled.div`
   justify-content: center;
   align-items: center;
   gap: 2rem;
+  margin: 0 0 2rem 0;
 
-  @media (min-width: 992px){
+  @media (min-width: 992px) {
     flex-direction: row;
-  };
+  } ;
 `;
 
 const StyledCol = styled.div`
@@ -32,7 +33,7 @@ const StyledCard = styled.div`
   padding: 1.5rem 1rem;
   border-radius: 10px;
   box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.1);
-  border-top: 5px solid ${(props) => props.color || "black"};
+  border-top: 5px solid ${(props) => props.theme.borderColor};
 `;
 
 const StyledContent = styled(Content)`
@@ -41,9 +42,9 @@ const StyledContent = styled(Content)`
 `;
 
 const Text = styled.p`
-  color: ${(props) => props.textColor || "black"};
-  font-size: ${(props) => props.fontSize || "1rem"};
-  font-weight: ${(props) => props.fontWeight || "400"};
+  color: ${(props) => props.theme.textColor};
+  font-size: ${(props) => props.theme.fontSize};
+  font-weight: ${(props) => props.theme.fontWeight};
 `;
 
 const Image = styled.img`
@@ -53,22 +54,33 @@ const Image = styled.img`
   right: -12rem;
 `;
 
+const theme = {
+  borderColor: "black",
+  textColor: "black",
+  fontSize: "1rem",
+  fontWeight: "600",
+};
+
 const Card = () => {
   return (
     <StyledCardContainer>
       <StyledCol className='col-one'>
-        <StyledCard color='hsl(180, 62%, 55%)'>
+        <StyledCard theme={{ borderColor: "hsl(180, 62%, 55%)" }}>
           <StyledContent>
             <Text
-              textColor='hsl(234, 12%, 34%)'
-              fontSize='1.2rem'
-              fontWeight='600'>
+              theme={{
+                textColor: "hsl(234, 12%, 34%)",
+                fontSize: "1.2rem",
+                fontWeight: "600",
+              }}>
               Supervisor
             </Text>
             <Text
-              textColor='hsl(229, 6%, 66%)'
-              fontSize='0.8rem'
-              fontWeight='200'>
+              theme={{
+                textColor: "hsl(229, 6%, 66%)",
+                fontSize: "0.8rem",
+                fontWeight: "200",
+              }}>
               Monitors activity to identify project roadblocks
             </Text>
             <Image src={ImgOne} alt='Loop' />
@@ -77,36 +89,44 @@ const Card = () => {
       </StyledCol>
 
       <StyledCol className='col-two'>
-        <StyledCard color='hsl(0, 78%, 62%)'>
+        <StyledCard theme={{ borderColor: "hsl(0, 78%, 62%)" }}>
           <StyledContent>
             <Text
-              textColor='hsl(234, 12%, 34%)'
-              fontSize='1.2rem'
-              fontWeight='600'>
+              theme={{
+                textColor: "hsl(234, 12%, 34%)",
+                fontSize: "1.2rem",
+                fontWeight: "600",
+              }}>
               Team Builder
             </Text>
             <Text
-              textColor='hsl(229, 6%, 66%)'
-              fontSize='0.8rem'
-              fontWeight='200'>
+              theme={{
+                textColor: "hsl(229, 6%, 66%)",
+                fontSize: "0.8rem",
+                fontWeight: "200",
+              }}>
               Scans our talent network to create the optimal team for your
               project
             </Text>
             <Image src={ImgTwo} alt='Building' />
           </StyledContent>
         </StyledCard>
-        <StyledCard color='hsl(34, 97%, 64%)'>
+        <StyledCard theme={{ borderColor: "hsl(34, 97%, 64%)" }}>
           <StyledContent>
             <Text
-              textColor='hsl(234, 12%, 34%)'
-              fontSize='1.2rem'
-              fontWeight='600'>
+              theme={{
+                textColor: "hsl(234, 12%, 34%)",
+                fontSize: "1.2rem",
+                fontWeight: "600",
+              }}>
               Karma
             </Text>
             <Text
-              textColor='hsl(229, 6%, 66%)'
-              fontSize='0.8rem'
-              fontWeight='200'>
+              theme={{
+                textColor: "hsl(229, 6%, 66%)",
+                fontSize: "0.8rem",
+                fontWeight: "200",
+              }}>
               Regularly evaluates our talent to ensure quality
             </Text>
             <Image src={ImgThree} alt='Light' />
@@ -115,18 +135,22 @@ const Card = () => {
       </StyledCol>
 
       <StyledCol className='col-three'>
-        <StyledCard color='hsl(212, 86%, 64%)'>
+        <StyledCard theme={{ borderColor: "hsl(212, 86%, 64%)" }}>
           <StyledContent>
             <Text
-              textColor='hsl(234, 12%, 34%)'
-              fontSize='1.2rem'
-              fontWeight='600'>
+              theme={{
+                textColor: "hsl(234, 12%, 34%)",
+                fontSize: "1.2rem",
+                fontWeight: "600",
+              }}>
               Calculator
             </Text>
             <Text
-              textColor='hsl(229, 6%, 66%)'
-              fontSize='0.8rem'
-              fontWeight='200'>
+              theme={{
+                textColor: "hsl(229, 6%, 66%)",
+                fontSize: "0.8rem",
+                fontWeight: "200",
+              }}>
               Uses data from past projects to provide better delivery estimates
             </Text>
             <Image src={ImgFour} alt='Computer' />
